@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(blue, yellow) fixed;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn {
+    background-color: #1a202c;
+    color: white;
+    padding: 5px;
+    margin-left: -5px;
+    cursor: pointer;
+}
+input {
+    padding: 5px 150px 5px 5px;
+}
+input:hover {
+    border: 1px solid green;
+    border-radius: 2px;
+}
+.btn:hover {
+    border: 1px solid green;
+    border-radius: 2px;
+}
+.container {
+    margin-top: 50px;
+    background-color: #fff;
+    display: none;
+}
+.weather {
+    display: flex;
+    background-color: #1a202c;
+    color: white;
+    justify-content: center;
+    height: 170px;
+    width: 380px;
+}
+.temperature {
+    margin: 10px;
+}
+.degrees {
+
+}
+.feels {
+
+}
+.info {
+    margin: 10px;
+}
+.cloudiness {
+
+}
+.cloudiness-info {
+
+}
+.icon {
+    margin: 10px;
+    align-self: center;
+}
+p:first-child {
+    font-size: 30px;
+}
+
+.show {
+    display: inline-block;
+}
